@@ -100,4 +100,3 @@ console.log("String:", str); // Output: "apple$banana$pineapple"
  * Example:
  * fruits.join() → "apple,banana,pineapple"
  */
-
