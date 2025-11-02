@@ -84,3 +84,20 @@ console.log("Index of 90:", arr.indexOf(90));
  */
 console.log("Includes 10:", arr.includes(10));
 
+// 9. join() - joins all array elements into a single string with the specified separator
+
+let fruits = ["apple", "banana", "pineapple"];
+let str = fruits.join("$");
+
+console.log("String:", str); // Output: "apple$banana$pineapple"
+
+/**
+ * Explanation:
+ * join() combines all elements of the array into a single string.
+ * The argument (like "$", ",", "-", etc.) is used as a separator.
+ * 
+ * If no separator is given, it defaults to a comma (,)
+ * Example:
+ * fruits.join() → "apple,banana,pineapple"
+ */
+
